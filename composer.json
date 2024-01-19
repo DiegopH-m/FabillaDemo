@@ -1,4 +1,6 @@
 {
+    "name": "fabilla/demo",
+    "description": "Fabilla CI/CD demo",
     "require-dev": {
         "phpunit/phpunit": "^9.6"
     },
