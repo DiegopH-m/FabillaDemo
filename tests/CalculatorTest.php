@@ -32,7 +32,7 @@ class CalculatorTest extends TestCase {
     public function testDivisionByZero() {
         $calculator = new Calculator();
         $result = $calculator->calculate(10, 0, '/');
-        $this->assertEquals("Cannot divide by zero", $result);
+        $this->assertEquals("Cannot divide by zero.", $result);
     }
 
     public function testInvalidOperator() {
