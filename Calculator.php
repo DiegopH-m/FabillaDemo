@@ -13,7 +13,7 @@ class Calculator {
                 if ($num2 != 0) {
                     return $num1 / $num2;
                 } else {
-                    return "Cannot divide by .";
+                    return "Cannot divide by zero.";
                 }
             default:
                 return "Invalid operator";
