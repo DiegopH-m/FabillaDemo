@@ -1,4 +1,7 @@
 {
+    "name": "fabilla/demo",
+    "description": "Fabilla CI/CD demo",
+    "license": "proprietary",
     "require-dev": {
         "phpunit/phpunit": "^9.6"
     },
